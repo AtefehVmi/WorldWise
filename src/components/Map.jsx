@@ -12,6 +12,7 @@ import { useCities } from "../contexts/CitiesContext";
 import { useGeolocation } from "../hooks/useGeoLocation";
 import Button from "./Button";
 import { useUrlPosition } from "../hooks/useUrlPosition";
+import { useNavigate } from "react-router-dom";
 
 function Map() {
   const [mapPosition, setMapPosition] = useState([40, 0]);
